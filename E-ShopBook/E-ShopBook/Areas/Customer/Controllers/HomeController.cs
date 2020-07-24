@@ -20,6 +20,7 @@ namespace E_ShopBook.Areas.Customer.Controllers
         }
 
         public IActionResult Index()
+        
         {
             return View();
         }
