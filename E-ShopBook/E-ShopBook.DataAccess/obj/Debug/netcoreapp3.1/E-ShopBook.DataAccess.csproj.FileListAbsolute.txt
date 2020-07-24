@@ -1,0 +1,14 @@
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\bin\Debug\netcoreapp3.1\E-ShopBook.DataAccess.deps.json
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\bin\Debug\netcoreapp3.1\E-ShopBook.DataAccess.dll
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\obj\Debug\netcoreapp3.1\E-ShopBook.DataAccess.csprojAssemblyReference.cache
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\obj\Debug\netcoreapp3.1\E-ShopBook.DataAccess.AssemblyInfoInputs.cache
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\obj\Debug\netcoreapp3.1\E-ShopBook.DataAccess.AssemblyInfo.cs
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\bin\Debug\netcoreapp3.1\E-ShopBook.DataAccess.pdb
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\obj\Debug\netcoreapp3.1\E-ShopBook.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\obj\Debug\netcoreapp3.1\E-ShopBook.DataAccess.dll
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\obj\Debug\netcoreapp3.1\E-ShopBook.DataAccess.pdb
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\bin\Debug\netcoreapp3.1\E-ShopBook.Models.dll
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\bin\Debug\netcoreapp3.1\E-ShopBook.Utility.dll
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\bin\Debug\netcoreapp3.1\E-ShopBook.Models.pdb
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\bin\Debug\netcoreapp3.1\E-ShopBook.Utility.pdb
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\obj\Debug\netcoreapp3.1\E-ShopBook.DataAccess.csproj.CopyComplete

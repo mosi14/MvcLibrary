@@ -4,14 +4,91 @@
     "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook\\E-ShopBook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook\\E-ShopBook.csproj": {
+    "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.DataAccess\\E-ShopBook.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook\\E-ShopBook.csproj",
-        "projectName": "E-ShopBook",
-        "projectPath": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook\\E-ShopBook.csproj",
+        "projectUniqueName": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.DataAccess\\E-ShopBook.DataAccess.csproj",
+        "projectName": "E-ShopBook.DataAccess",
+        "projectPath": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.DataAccess\\E-ShopBook.DataAccess.csproj",
         "packagesPath": "C:\\Users\\mosi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook\\obj\\",
+        "outputPath": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mosi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.Models\\E-ShopBook.Models.csproj": {
+                "projectPath": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.Models\\E-ShopBook.Models.csproj"
+              },
+              "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.Utility\\E-ShopBook.Utility.csproj": {
+                "projectPath": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.Utility\\E-ShopBook.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.Models\\E-ShopBook.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.Models\\E-ShopBook.Models.csproj",
+        "projectName": "E-ShopBook.Models",
+        "projectPath": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.Models\\E-ShopBook.Models.csproj",
+        "packagesPath": "C:\\Users\\mosi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mosi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,26 +114,154 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.Utility\\E-ShopBook.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.Utility\\E-ShopBook.Utility.csproj",
+        "projectName": "E-ShopBook.Utility",
+        "projectPath": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.Utility\\E-ShopBook.Utility.csproj",
+        "packagesPath": "C:\\Users\\mosi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mosi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook\\E-ShopBook.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook\\E-ShopBook.csproj",
+        "projectName": "E-ShopBook",
+        "projectPath": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook\\E-ShopBook.csproj",
+        "packagesPath": "C:\\Users\\mosi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mosi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.DataAccess\\E-ShopBook.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.DataAccess\\E-ShopBook.DataAccess.csproj"
+              },
+              "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.Models\\E-ShopBook.Models.csproj": {
+                "projectPath": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.Models\\E-ShopBook.Models.csproj"
+              },
+              "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.Utility\\E-ShopBook.Utility.csproj": {
+                "projectPath": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook.Utility\\E-ShopBook.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.6, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.6, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
             }
           },
           "imports": [
