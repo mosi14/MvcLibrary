@@ -12,6 +12,8 @@ using E_ShopBook.DataAccess.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using E_ShopBook.DataAccess.Repository;
+using E_ShopBook.DataAccess.Repository.IRepository;
 
 namespace E_ShopBook
 {
@@ -32,6 +34,7 @@ namespace E_ShopBook
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddRazorPages();
         }
