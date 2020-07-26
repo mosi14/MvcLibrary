@@ -23,7 +23,7 @@ namespace E_ShopBook.DataAccess.Repository
             if (objFromDb != null)
             {
                 objFromDb.Name = category.Name;
-                _db.SaveChanges();
+         
             }
         }
     }

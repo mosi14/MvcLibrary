@@ -13,6 +13,20 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
+#line 1 "C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\Views\_ViewImports.cshtml"
+using E_ShopBook;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\Views\_ViewImports.cshtml"
+using E_ShopBook.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\Views\Shared\Error.cshtml"
 using E_ShopBook.Models.ViewModels;
 
@@ -20,6 +34,7 @@ using E_ShopBook.Models.ViewModels;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1c26959e3fa7d447a3d8041a1c04c2791fcf05ed", @"/Views/Shared/Error.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"00d06ec70c0c67fbecbbaa980a95a2a00d8861e7", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     {
         #pragma warning disable 1998

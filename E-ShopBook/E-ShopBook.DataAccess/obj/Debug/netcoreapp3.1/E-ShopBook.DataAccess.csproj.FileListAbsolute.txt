@@ -11,3 +11,4 @@ C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\bin\Debug
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\bin\Debug\netcoreapp3.1\E-ShopBook.Models.pdb
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\bin\Debug\netcoreapp3.1\E-ShopBook.Utility.pdb
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\obj\Debug\netcoreapp3.1\E-ShopBook.DataAccess.csproj.CopyComplete
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.DataAccess\obj\Debug\netcoreapp3.1\E-ShopBook.DataAccess.csproj.CoreCompileInputs.cache
