@@ -14,5 +14,6 @@ namespace E_ShopBook.DataAccess.Data
         {
         }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<CoverType> CoverTypes { get; set; }
     }
 }
