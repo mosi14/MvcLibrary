@@ -441,3 +441,7 @@ C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_EditAndBackToListButton.cshtml.g.cs
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\CoverType\Index.cshtml.g.cs
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\CoverType\Upsert.cshtml.g.cs
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Upsert.cshtml.g.cs

@@ -26,4 +26,8 @@
     <ProjectReference Include="..\E-ShopBook.Utility\E-ShopBook.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\products\" />
+  </ItemGroup>
+
 </Project>
