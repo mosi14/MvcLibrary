@@ -4,6 +4,6 @@ C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.Utility\bin\Debug\ne
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.Utility\obj\Debug\netcoreapp3.1\E-ShopBook.Utility.csprojAssemblyReference.cache
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.Utility\obj\Debug\netcoreapp3.1\E-ShopBook.Utility.AssemblyInfoInputs.cache
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.Utility\obj\Debug\netcoreapp3.1\E-ShopBook.Utility.AssemblyInfo.cs
-C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.Utility\obj\Debug\netcoreapp3.1\E-ShopBook.Utility.csproj.CoreCompileInputs.cache
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.Utility\obj\Debug\netcoreapp3.1\E-ShopBook.Utility.dll
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.Utility\obj\Debug\netcoreapp3.1\E-ShopBook.Utility.pdb
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook.Utility\obj\Debug\netcoreapp3.1\E-ShopBook.Utility.csproj.CoreCompileInputs.cache

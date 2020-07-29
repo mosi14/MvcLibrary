@@ -2571,6 +2571,9 @@
         }
       },
       "E-ShopBook.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "3.1.6"
+        },
         "runtime": {
           "E-ShopBook.Utility.dll": {}
         },
