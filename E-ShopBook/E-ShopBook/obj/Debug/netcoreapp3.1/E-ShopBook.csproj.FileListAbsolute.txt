@@ -445,3 +445,5 @@ C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\bin\Debug\netcoreapp
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Upsert.cshtml.g.cs
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Company\Index.cshtml.g.cs
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Company\Upsert.cshtml.g.cs
