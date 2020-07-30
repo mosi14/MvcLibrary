@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "914eH3cT2FuqXYpuerrU3fsgYlzG6LkpWrXnL+mLNF46cw8woYBr5HnBGTzGBO+8YTulXe6/UbG1GM3Zx8lI5Q==",
+  "dgSpecHash": "KUFRKnJ4tKagvNvXNeSc6wF9K7D76w/Z0KJXkstQCEjjmnElQgciLD4uASbmFQbWjxQCTADDF9jTqYYOBtmDTw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook\\E-ShopBook.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\mosi\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\mosi\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\3.1.6\\microsoft.aspnetcore.authentication.facebook.3.1.6.nupkg.sha512",
+    "C:\\Users\\mosi\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\3.1.6\\microsoft.aspnetcore.authentication.google.3.1.6.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.6\\microsoft.aspnetcore.cryptography.internal.3.1.6.nupkg.sha512",

@@ -5,12 +5,15 @@ using System.Threading.Tasks;
 using E_ShopBook.DataAccess.Data;
 using E_ShopBook.DataAccess.Repository.IRepository;
 using E_ShopBook.Models;
+using E_ShopBook.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace E_ShopBook.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
 
     public class UserController : Controller
     {

@@ -40,6 +40,23 @@ namespace E_ShopBook
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddRazorPages();
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = $"/Identity/Account/Login";
+                options.LogoutPath = $"/Identity/Account/Logout";
+                options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
+            });
+            services.AddAuthentication().AddFacebook(options =>
+            {
+                options.AppId = "1047692782331797";
+                options.AppSecret = "f8ce81ac804f764e2f9bfe41eef1b509";
+            });
+            services.AddAuthentication().AddGoogle(options =>
+            {
+                options.ClientId = "884815510092-h3p1d9rrmn12cue7oe16fpl42lbcg9ki.apps.googleusercontent.com";
+                options.ClientSecret = "zfUBW3xbTPNwjtoZzv3Wy8Jw";
+
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
