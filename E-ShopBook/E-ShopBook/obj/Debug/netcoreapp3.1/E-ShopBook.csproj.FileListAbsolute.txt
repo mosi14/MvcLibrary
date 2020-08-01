@@ -489,3 +489,5 @@ C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\bin\Debug\netcoreapp
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\E-ShopBook.csproj.CoreCompileInputs.cache
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\E-ShopBook.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\E-ShopBook.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\bin\Debug\netcoreapp3.1\SendGrid.dll
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\bin\Debug\netcoreapp3.1\StarkbankEcdsa.dll
