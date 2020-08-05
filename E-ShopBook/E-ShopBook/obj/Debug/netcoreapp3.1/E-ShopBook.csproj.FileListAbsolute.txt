@@ -486,10 +486,13 @@ C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
-C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\E-ShopBook.csproj.CoreCompileInputs.cache
-C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\E-ShopBook.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\E-ShopBook.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\bin\Debug\netcoreapp3.1\SendGrid.dll
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\bin\Debug\netcoreapp3.1\StarkbankEcdsa.dll
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Cart\Index.cshtml.g.cs
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Cart\OrderConfirmation.cshtml.g.cs
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Cart\Summary.cshtml.g.cs
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\bin\Debug\netcoreapp3.1\Stripe.net.dll
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\E-ShopBook.csproj.CoreCompileInputs.cache
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\E-ShopBook.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\E-ShopBook.MvcApplicationPartsAssemblyInfo.cache

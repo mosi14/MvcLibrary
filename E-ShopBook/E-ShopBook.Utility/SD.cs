@@ -4,7 +4,7 @@ using System.Text;
 
 namespace E_ShopBook.Utility
 {
-    public class SD
+    public static class SD
     {
         public const string Proc_CoverType_Create = "usp_CreateCoverType";
         public const string Proc_CoverType_Get = "usp_GetCoverType";
@@ -12,14 +12,26 @@ namespace E_ShopBook.Utility
         public const string Proc_CoverType_Update = "usp_UpdateCoverType";
         public const string Proc_CoverType_Delete = "usp_DeleteCoverType";
 
-
         public const string Role_User_Indi = "Individual Customer";
         public const string Role_User_Comp = "Company Customer";
         public const string Role_Admin = "Admin";
         public const string Role_Employee = "Employee";
 
-
         public const string ssShoppingCart = "Shoping Cart Session";
+
+        public const string StatusPending = "Pending";
+        public const string StatusApproved = "Approved";
+        public const string StatusInProcess = "Processing";
+        public const string StatusShipped = "Shipped";
+        public const string StatusCancelled = "Cancelled";
+        public const string StatusRefunded = "Refunded";
+
+        public const string PaymentStatusPending = "Pending";
+        public const string PaymentStatusApproved = "Approved";
+        public const string PaymentStatusDelayedPayment = "ApprovedForDelayedPayment";
+        public const string PaymentStatusRejected = "Rejected";
+
+
 
         public static double GetPriceBasedOnQuantity(double quantity, double price, double price50, double price100)
         {
@@ -67,6 +79,5 @@ namespace E_ShopBook.Utility
             }
             return new string(array, 0, arrayIndex);
         }
-
     }
 }
