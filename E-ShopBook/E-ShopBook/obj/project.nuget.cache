@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hL0JvZz5LDOPTmNZq/La+3wBeuiTSkZl/ztCBaLl4IKNxPUy++H3H9/ubP9GTQN1mtbZXcuy5E5DQjw4WYKl6w==",
+  "dgSpecHash": "sohzGw3C2w+pNS6hyNGClOnQ4JkEgVg4IHuimgVSUojqf2uiNuIpxNfyWD6Gmvzqw68VOIxqcPW33fkM+X4dyA==",
   "success": true,
   "projectFilePath": "C:\\Users\\mosi\\source\\repos\\MvcLibrary\\E-ShopBook\\E-ShopBook\\E-ShopBook.csproj",
   "expectedPackageFiles": [
@@ -81,6 +81,9 @@
     "C:\\Users\\mosi\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\microsoft.extensions.webencoders\\2.2.0\\microsoft.extensions.webencoders.2.2.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\microsoft.identity.client\\3.0.8\\microsoft.identity.client.3.0.8.nupkg.sha512",
+    "C:\\Users\\mosi\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\5.3.0\\microsoft.identitymodel.jsonwebtokens.5.3.0.nupkg.sha512",
+    "C:\\Users\\mosi\\.nuget\\packages\\microsoft.identitymodel.logging\\5.3.0\\microsoft.identitymodel.logging.5.3.0.nupkg.sha512",
+    "C:\\Users\\mosi\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.3.0\\microsoft.identitymodel.tokens.5.3.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
@@ -147,6 +150,7 @@
     "C:\\Users\\mosi\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\system.globalization.calendars\\4.3.0\\system.globalization.calendars.4.3.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\system.globalization.extensions\\4.3.0\\system.globalization.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\mosi\\.nuget\\packages\\system.identitymodel.tokens.jwt\\5.3.0\\system.identitymodel.tokens.jwt.5.3.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\system.io.compression\\4.3.0\\system.io.compression.4.3.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\system.io.compression.zipfile.4.3.0.nupkg.sha512",
@@ -181,7 +185,9 @@
     "C:\\Users\\mosi\\.nuget\\packages\\system.runtime.serialization.formatters\\4.3.0\\system.runtime.serialization.formatters.4.3.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\system.runtime.serialization.json\\4.3.0\\system.runtime.serialization.json.4.3.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\system.runtime.serialization.primitives\\4.3.0\\system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\mosi\\.nuget\\packages\\system.runtime.serialization.xml\\4.3.0\\system.runtime.serialization.xml.4.3.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
+    "C:\\Users\\mosi\\.nuget\\packages\\system.security.claims\\4.3.0\\system.security.claims.4.3.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\system.security.cryptography.algorithms\\4.3.0\\system.security.cryptography.algorithms.4.3.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\system.security.cryptography.csp\\4.3.0\\system.security.cryptography.csp.4.3.0.nupkg.sha512",
@@ -193,6 +199,7 @@
     "C:\\Users\\mosi\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0\\system.security.cryptography.x509certificates.4.3.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\system.security.cryptography.xml\\4.5.0\\system.security.cryptography.xml.4.5.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
+    "C:\\Users\\mosi\\.nuget\\packages\\system.security.principal\\4.3.0\\system.security.principal.4.3.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\system.security.securestring\\4.3.0\\system.security.securestring.4.3.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
@@ -208,7 +215,8 @@
     "C:\\Users\\mosi\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\mosi\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\mosi\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\mosi\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\mosi\\.nuget\\packages\\twilio\\5.45.2\\twilio.5.45.2.nupkg.sha512"
   ],
   "logs": []
 }

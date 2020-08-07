@@ -493,8 +493,15 @@ C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Cart\OrderConfirmation.cshtml.g.cs
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Cart\Summary.cshtml.g.cs
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\bin\Debug\netcoreapp3.1\Stripe.net.dll
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Order\Index.cshtml.g.cs
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Order\Details.cshtml.g.cs
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewStart.cshtml.g.cs
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\bin\Debug\netcoreapp3.1\Twilio.dll
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\E-ShopBook.csproj.CoreCompileInputs.cache
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\E-ShopBook.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\E-ShopBook.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Order\Index.cshtml.g.cs
-C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Order\Details.cshtml.g.cs
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\UserName\Default.cshtml.g.cs
