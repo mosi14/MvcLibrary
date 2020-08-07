@@ -1,22 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 using E_ShopBook.DataAccess.Repository.IRepository;
 using E_ShopBook.Models;
 using E_ShopBook.Models.ViewModels;
+using E_ShopBook.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.AspNetCore.Authorization;
-using E_ShopBook.Utility;
 
 namespace E_ShopBook.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = SD.Role_Admin)]
-
     public class ProductController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -33,13 +32,15 @@ namespace E_ShopBook.Areas.Admin.Controllers
             return View();
         }
 
-        public IActionResult Upsert(int? id)
+        public async Task<IActionResult> Upsert(int? id)
         {
+            IEnumerable<Category> CatList = await _unitOfWork.Category.GetAllAsync();
             ProductVM productVM = new ProductVM()
             {
                 Product = new Product(),
-                CategoryList = _unitOfWork.Category.GetAll().Select(i=> new SelectListItem{ 
-                    Text = i.Name ,
+                CategoryList = CatList.Select(i => new SelectListItem
+                {
+                    Text = i.Name,
                     Value = i.Id.ToString()
                 }),
                 CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem
@@ -62,9 +63,10 @@ namespace E_ShopBook.Areas.Admin.Controllers
             return View(productVM);
 
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upsert(ProductVM productVM)
+        public async Task<IActionResult> Upsert(ProductVM productVM)
         {
             if (ModelState.IsValid)
             {
@@ -116,7 +118,8 @@ namespace E_ShopBook.Areas.Admin.Controllers
             }
             else
             {
-                productVM.CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
+                IEnumerable<Category> CatList = await _unitOfWork.Category.GetAllAsync();
+                productVM.CategoryList = CatList.Select(i => new SelectListItem
                 {
                     Text = i.Name,
                     Value = i.Id.ToString()
@@ -134,12 +137,13 @@ namespace E_ShopBook.Areas.Admin.Controllers
             return View(productVM);
         }
 
+
         #region API CALLS
 
         [HttpGet]
         public IActionResult GetAll()
         {
-            var allObj = _unitOfWork.Product.GetAll(includeProperties:"Category,CoverType");
+            var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
             return Json(new { data = allObj });
         }
 
@@ -164,6 +168,5 @@ namespace E_ShopBook.Areas.Admin.Controllers
         }
 
         #endregion
-
     }
 }

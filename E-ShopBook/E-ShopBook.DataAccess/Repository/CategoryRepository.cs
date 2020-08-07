@@ -8,7 +8,7 @@ using System.Text;
 
 namespace E_ShopBook.DataAccess.Repository
 {
-    public class CategoryRepository : Repository<Category>, ICategoryRepository
+    public class CategoryRepository : RepositoryAsync<Category>, ICategoryRepository
     {
         private readonly ApplicationDbContext _db;
 
@@ -23,7 +23,7 @@ namespace E_ShopBook.DataAccess.Repository
             if (objFromDb != null)
             {
                 objFromDb.Name = category.Name;
-         
+
             }
         }
     }

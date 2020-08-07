@@ -3,28 +3,29 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace E_ShopBook.DataAccess.Repository.IRepository
 {
-    public interface IRepository<T> where T : class
+    public interface IRepositoryAsync<T> where T :class
     {
-        T Get(int id);
+        Task<T> GetAsync(int id);
 
-        IEnumerable<T> GetAll(
+        Task<IEnumerable<T>> GetAllAsync(
             Expression<Func<T, bool>> filter = null,
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
             string includeProperties = null
             );
 
-        T GetFirstOrDefault(
+        Task<T> GetFirstOrDefaultAsync(
             Expression<Func<T, bool>> filter = null,
             string includeProperties = null
             );
 
-        void Add(T entity);
-        void Remove(int id);
-        void Remove(T entity);
-        void RemoveRange(IEnumerable<T> entity);
+        Task AddAsync(T entity);
+        Task RemoveAsync(int id);
+        Task RemoveAsync(T entity);
+        Task RemoveRangeAsync(IEnumerable<T> entity);
 
 
     }
