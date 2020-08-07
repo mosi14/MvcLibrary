@@ -505,3 +505,4 @@ C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\E-ShopBook.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\E-ShopBook.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\UserName\Default.cshtml.g.cs
+C:\Users\mosi\source\repos\MvcLibrary\E-ShopBook\E-ShopBook\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Notifications.cshtml.g.cs
